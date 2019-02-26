@@ -1,0 +1,77 @@
+﻿
+Shell Scripting Assignment
+
+Q.1. How to write shell script that will add two nos, which are supplied as command line argument, and if this two nos are not given show error and its usage
+
+Q.2.Write Script to find out biggest number from given three nos. Nos are supplied as command line argument. Print error if sufficient arguments are not supplied.
+
+Q.3.Write script to print nos as 5,4,3,2,1 using while loop.
+Q.4. Write Script, using case statement to perform basic math operation as follows
++ addition
+- subtraction
+x multiplication
+/ division
+The name of script must be 'q4' which works as follows
+$ ./q4 20 / 3, Also check for sufficient command line arguments
+Q.5.Write Script to see current date, time, username, and current directory
+
+Q.6.Write script to print given number in reverse order, for eg. If no is 123 it must print as 321.
+
+Q.7.Write script to print given numbers sum of all digit, For eg. If no is 123 it's sum of all digit will be 1+2+3 = 6
+
+Q.8.How to perform real number (number with decimal point) calculation in Linux
+hint: “bc” command
+Q.9.How to calculate 5.12 + 2.5 real number calculation at $ prompt in Shell ?
+
+Q.10.How to perform real number calculation in shell script and store result to third variable , lets say a=5.66, b=8.67, c=a+b?
+
+Q.11.Write script to determine whether given file exist or not, file name is supplied as command line argument, also check for sufficient number of command line argument
+
+Q.12.Write script to determine whether given command line argument ($1) contains "*" symbol or not, if $1 does not contains "*" symbol add it to $1, otherwise show message "Symbol is not required". For e.g. If we called this script Q12 then after giving , 
+$ Q12 /tmp
+Here $1 is /tmp, it should check whether "*" symbol is present or not if not it should print Required i.e. /tmp/*, and if symbol present then Symbol is not required must be printed. Test your script as
+$ Q12 /tmp
+$ Q12 /tmp/*
+
+Q.13. Write script to print contains of file from given line number to next given number of lines. 
+
+Q.14. Write script called sayHello, put this script into your startup file called .bash_profile, the script should run as soon as you logon to system, and it print any one of the following message in infobox using dialog utility, if installed in your system, If dialog utility is not installed then use echo statement to print message : -
+Good Morning
+Good Afternoon
+Good Evening , according to system time.
+Q.16. How to write script, that will print, Message "Hello World" , in Bold and Blink effect, and in different colors like red, brown etc using echo command.
+
+Q.17. Write script to implement background process that will continually print current time in upper right corner of the screen , while user can do his/her normal job at $ prompt.
+
+Q.18. Write shell script to show various system configuration like
+1) Currently logged user and his logname
+2) Your current shell
+3) Your home directory
+4) Your operating system type
+5) Your current path setting
+6) Your current working directory
+7) Show Currently logged number of users
+8) About your os and version ,release number , kernel version
+9) Show all available shells
+10) Show mouse settings
+11) Show computer cpu information like processor type, speed etc
+12) Show memory information
+13) Show hard disk information like size of hard-disk, cache memory, model etc
+14) File system (Mounted)
+
+
+*******
+
+1.Develop shell scripts using for & until constructs for adding n numbers
+2.Develop a shell script to compare two numbers and print the largest, Give the numbers from the command line
+3.Develop a shell script which prints a no (1 to 10) in words (2 – two) using case construct
+4.Develop a shell script for adding two given numbers using functions construct. Two numbers are given as arguments to the function
+5.What is the use of PATH variable?
+
+*******
+
+1.While executing a shell script either the LOGNAME or the UID is supplied at the command prompt.
+Write a shell script to find out at how many terminals has this user logged in?
+2.An integer is input through the keyboard. Write a program to find out whether it is an odd number or even number
+3.Write a shell script, which receives any year from the keyboard and determines whether the year is a leap or not. If no argument is supplied the current year should be assumed
+
